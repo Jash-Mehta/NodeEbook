@@ -48,6 +48,7 @@ const login = require('./Routes/auth');
 const books = require('./Routes/books')
 const favorite = require('./Routes/favorities');
 const continueReading = require('./Routes/continueReading');
+const daily_random_book = require('./Routes/dailybooks')
 
 // Creating the End Points---------------->
 app.use('/user', userRouter);
@@ -55,9 +56,7 @@ app.use('/login', login);
 app.use('/books',books);
 app.use('/favorite', favorite);
 app.use('/continueReading',continueReading);
-
-
-
+app.use('/daily-random-book',daily_random_book);
 
 
 app.listen(PORT, () => {

@@ -20,3 +20,17 @@ async function addContinueReading(req, res, userId) {
 }
 
 module.exports = addContinueReading;
+
+
+// Endpoint to fetch daily random book
+// app.get('/daily-random-book', (req, res) => {
+//     const query = 'SELECT * FROM daily_random_book';
+//     connection.query(query, (error, results, fields) => {
+//         if (error) {
+//             console.error('Error fetching daily random book:', error);
+//             res.status(500).json({ error: 'Internal Server Error' });
+//             return;
+//         }
+//         res.json(results[0]); // Send the first (and only) row
+//     });
+// });
