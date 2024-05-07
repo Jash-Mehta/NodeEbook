@@ -52,6 +52,7 @@ const daily_random_book = require('./Routes/dailybooks');
 const cart = require('./Routes/carts');
 const completeOrder = require('./Routes/completeOrder');
 const topSelling = require('./Routes/topSelling');
+const wishlist = require('./Routes/wishlist');
 
 // Creating the End Points---------------->
 app.use('/user', userRouter);
@@ -63,6 +64,7 @@ app.use('/daily-random-book',daily_random_book);
 app.use('/cart',cart);
 app.use('/completeOrder', completeOrder);
 app.use('/top-selling-books',topSelling);
+app.use('/wish-list',wishlist);
 
 
 app.listen(PORT, () => {
