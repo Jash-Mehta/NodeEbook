@@ -4,6 +4,7 @@ const router = express.Router();
 const { generateToken, jwtMiddleWare } = require('./../MiddleWare/jwt');
 const addtoFavorite = require('./../Controllers/favorite/addtoFavorite');
 const getFavorite = require('./../Controllers/favorite/getfavorite');
+const deleteFavorite = require('./../Controllers/favorite/deleteFavorite');
 
 
 router.post('/',jwtMiddleWare,(req,res)=>{
@@ -18,6 +19,11 @@ router.get('/',jwtMiddleWare,(req,res)=>{
     const userId = req.user.userId;
     getFavorite(req,res,userId,promisePool);
 
+});
+router.delete('/:id',jwtMiddleWare,(req,res)=>{
+    const promisePool = req.promisePool;
+    const userId = req.user.userId;
+    deleteFavorite(req,res,userId,promisePool);
 });
 
 
