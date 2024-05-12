@@ -54,6 +54,7 @@ const completeOrder = require('./Routes/completeOrder');
 const topSelling = require('./Routes/topSelling');
 const wishlist = require('./Routes/wishlist');
 const ratings = require('./Routes/ratings');
+const bookViewed = require('./Routes/bookviews');
 
 // Creating the End Points---------------->
 app.use('/user', userRouter);
@@ -67,6 +68,7 @@ app.use('/completeOrder', completeOrder);
 app.use('/top-selling-books',topSelling);
 app.use('/wish-list',wishlist);
 app.use('/ratings',ratings);
+app.use('/book-views',bookViewed);
 
 
 app.listen(PORT, () => {
