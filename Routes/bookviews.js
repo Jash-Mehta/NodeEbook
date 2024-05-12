@@ -17,12 +17,12 @@ router.post('/', jwtMiddleWare, async (req, res) => {
         }
 
         // Check if there is a record indicating that the user has viewed the book
-        const hasViewed = await hasUserViewedBook(userId, bookId, promisePool);
+        const hasViewed = await hasUserViewedBook(userId, bookId, promisePool,res);
 
         if (!hasViewed) {
             // If the user hasn't viewed the book, increment the view count and record the view
-            await incrementViewCount(bookId, promisePool, res);
-            await recordUserBookView(userId, bookId, promisePool,res);
+            await incrementViewCount(bookId, promisePool, userId,res);
+            //await recordUserBookView(userId, bookId, promisePool,res);
         }
 
         // Proceed with your route logic (e.g., calling the bookviews controller function)
