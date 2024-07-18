@@ -20,6 +20,11 @@ Welcome to **BookHaven**, your one-stop destination for discovering, reading, an
 11. **Rating**: Rate and review books.
 12. **Best Selling**: List the best-selling books.
 
+## Technologies Used
+- ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+- ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+- ![REST API](https://img.shields.io/badge/REST%20API-02569B?style=for-the-badge&logo=restapi&logoColor=white)
+
 ## Installation
 
 ### Prerequisites
