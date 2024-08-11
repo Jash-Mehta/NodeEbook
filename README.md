@@ -19,11 +19,14 @@ Welcome to **BookHaven**, your one-stop destination for discovering, reading, an
 10. **Cart**: Add books to a cart for purchase.
 11. **Rating**: Rate and review books.
 12. **Best Selling**: List the best-selling books.
+13. **Word for Day**: Learn new Words daily.
+14. **Gemini API**: Ask AI about the Reading, Booksummary and mach more
 
 ## Technologies Used
 - ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 - ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 - ![REST API](https://img.shields.io/badge/REST%20API-02569B?style=for-the-badge&logo=restapi&logoColor=white)
+- ![Gemini API](https://img.shields.io/badge/Gemini%20API-02569B?style=for-the-badge&logo=cloud&logoColor=white)
 
 ## Installation
 
