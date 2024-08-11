@@ -20,7 +20,7 @@ Welcome to **BookHaven**, your one-stop destination for discovering, reading, an
 11. **Rating**: Rate and review books.
 12. **Best Selling**: List the best-selling books.
 13. **Word for Day**: Learn new Words daily.
-14. **Gemini API**: Ask AI about the Reading, Booksummary and mach more
+14. **Gemini API**: Ask AI about the Reading, Booksummary and much more
 
 ## Technologies Used
 - ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
