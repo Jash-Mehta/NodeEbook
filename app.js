@@ -56,6 +56,7 @@ const wishlist = require('./Routes/wishlist');
 const ratings = require('./Routes/ratings');
 const bookViewed = require('./Routes/bookviews');
 const collection = require('./Routes/collection');
+const gemini = require('./Routes/gemini');
 
 // Creating the End Points---------------->
 app.use('/user', userRouter);
@@ -71,10 +72,11 @@ app.use('/wish-list',wishlist);
 app.use('/ratings',ratings);
 app.use('/book-views',bookViewed);
 app.use('/collection',collection);
+app.use('/generate',gemini);
 
 
 app.listen(PORT, () => {
-  console.log("Server is Started at 3000")
+  console.log("🚀 Rocket is launched at 3000")
 });
 
 
